@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wallpaper</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container-temp"></div>
+  <p class="celcius">°C</p>
+
+  <div id="Relogio" class="clock" onload="showTime()"></div>
+  <div id="Milissegundos" class="mili" onload="showTime()"></div>
+
+  <button id="openPopupBtn" class="open-popup-btn"></button>
+
+  <div id="popup" class="popup">
+    <h2>Wallpapers</h2>
+    <ul>
+      <li><a href="../Chainsaw Man/01.html">Chainsaw Man</a></li>
+      <li><a href="../Steven Universo/index.html">Steven Universo</a></li>
+      <li><a href="../Junji Ito/03.html">Junji Ito</a></li>
+      <li><a href="../Berserk/04.html">Berserk</a></li>
+      <li><a href="../Tokyo Ghoul/05.html">Tokyo Ghoul</a></li>
+      <li><a href="../Miku/06.html">Hatsune Miku</a></li>
+    </ul>
+    <button onclick="closePopup()">Fechar</button>
+  </div>
+
+  <script src="../Scripts/script_popup.js"></script>
+  <script src="../Scripts/script_relogio.js"></script>
+  <script src="../Scripts/script_clima.js"></script>
+  <script src="../Scripts/script_troca.js"></script>
+</body>
+
+</html>

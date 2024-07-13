@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body {
+  font-family: "Jersey 10", system-ui;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./junji-ito.gif");
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 76%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 95px;
+  font-family: "Jersey 10", system-ui;
+  letter-spacing: 10px;
+  color: #a5272d;
+  font-weight: bolder;
+  text-shadow: 2px 2px 1px #fcfcff;
+}
+
+.mili {
+  position: absolute;
+  top: 51.9%;
+  left: 85%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #a5272d;
+  font-size: 20px;
+  font-family: "Jersey 10", system-ui;
+  font-weight: bolder;
+  text-shadow: 2px 2px 1px #fcfcff;
+}
+
+.clima {
+  position: absolute;
+  top: 42%;
+  left: 20%;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-shadow: 0.5px 0.5px 1px #fcfcff;
+  color: #a5272d;
+}
+
+.container-temp {
+  font-size: 120px;
+  font-family: "Jersey 10", system-ui;
+  font-weight: normal;
+  font-weight: bolder;
+  text-shadow: 2px 2px 1px #fcfcff;
+}
+
+
+
+
+
+
+
+
+.open-popup-btn {
+  position: fixed;
+  top: -6px;
+  right: -6px;
+  padding: 5px 5px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9998;
+}
+
+.popup.show {
+  display: block;
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.popup p {
+  margin-bottom: 10px;
+}
+
+.popup button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
