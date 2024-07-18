@@ -1,6 +1,3 @@
-import api_key from '../config.js';
-
-// Variáveis
 const api_key = "64ed82577ced7f69cb1687f0ce536131";
 
 const temp_number = document.querySelector('.container-temp');
