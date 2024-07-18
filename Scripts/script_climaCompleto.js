@@ -1,4 +1,4 @@
-import api_key from '../config.js';
+const api_key = "64ed82577ced7f69cb1687f0ce536131";
 
 const city = document.querySelector('.city');
 const date = document.querySelector('.date');
